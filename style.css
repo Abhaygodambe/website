@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 .navbar{
-    background: black;
+    background: white;
     color: white;
 }
 .navbar-brand{
@@ -73,7 +73,7 @@ span{
     color: rgb(236, 83, 83);
 }
 .back:hover{
-    color: rgb(236, 83, 83);
+    color: white;
     cursor: pointer;
 }
 .back{
@@ -83,7 +83,7 @@ span{
     transition: all 0.8s;
 }
 .back::before{
-    content: " ";
+    content: "";
     position: absolute;
     height: 0px;
     width: 100%;
@@ -101,4 +101,42 @@ span{
     color: white;
     cursor: pointer;
     
+}
+/*==========more=========*/
+.more h2{
+    font-weight:800;
+}
+.more p{
+    font-weight:lighter;
+
+}
+p{
+    font-size: 1.2rem;
+}
+/*=======discover=======*/
+.discover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./water.jpg)no-repeat;
+    background-size:fill;
+    width: 100%;
+}
+.discover h1{
+    font-weight : 800;
+    font size:2.8rem;
+
+}
+/*=======services =======*/
+.services h1{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.services h5{
+    font-weight: 700;
+
+}
+.fas{
+    font-size: 2.5rem; 
+}
+.back:hover .fas{
+    color: white;
+
 }
