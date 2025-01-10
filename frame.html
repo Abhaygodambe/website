@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Inspection Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+   
+    <header class="bg-white shadow-md py-4 px-6 flex items-center justify-between">
+        <h1 class="text-lg font-bold text-gray-800">Safety Audit</h1>
+        <nav>
+            <ul class="flex space-x-4 text-gray-600">
+                <li><a href="#" class="hover:text-blue-500">Design</a></li>
+                <li><a href="#" class="hover:text-blue-500">Script</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <main class="flex flex-grow">
+      
+        <aside class="w-16 bg-gray-50 border-r flex flex-col items-center py-4 space-y-4">
+          <button class="p-2 rounded-md hover:bg-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3C8.134 3 5 4.343 5 6v12c0 1.657 3.134 3 7 3s7-1.343 7-3V6c0-1.657-3.134-3-7-3zM5 10c0 1.657 3.134 3 7 3s7-1.343 7-3m-14 4c0 1.657 3.134 3 7 3s7-1.343 7-3" />
+            </svg>
+        </button>
+        
+        <button class="p-2 rounded-md hover:bg-gray-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2M12 3c4.97 0 9 4.03 9 9s-4.03 9-9 9-9-4.03-9-9 4.03-9 9-9z" />
+          </svg>
+      </button>
+      
+      <button class="p-2 rounded-md hover:bg-gray-200">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zM14 2v6h6" />
+        </svg>
+    </button>
+    
+            <button class="p-2 rounded-md hover:bg-gray-200">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.5C7.305 4.5 3.1 7.682 1 12c2.1 4.318 6.305 7.5 11 7.5s8.9-3.182 11-7.5c-2.1-4.318-6.305-7.5-11-7.5zM12 15a3 3 0 100-6 3 3 0 000 6z" />
+              </svg>
+          </button>
+          <button class="p-2 rounded-md hover:bg-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect width="16" height="16" x="4" y="4" stroke-width="2" rx="2" ry="2" />
+            </svg>
+        </button>
+        
+        <button class="p-2 rounded-md hover:bg-gray-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12H8m0 0l-4 4m4-4l-4-4m4 4h8" />
+          </svg>
+      </button>
+      
+            <button class="p-2 rounded-md hover:bg-gray-200">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l9 6 9-6m-9 6V8l-9 6m0-6l9 6" />
+              </svg>
+          </button>
+          <button class="p-2 rounded-md hover:bg-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+            </svg>
+        </button>
+        
+        <button class="p-2 rounded-md hover:bg-gray-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14V11a6.002 6.002 0 00-4-5.659V4a2 2 0 10-4 0v1.341C7.67 6.165 6 8.388 6 11v3a2.032 2.032 0 01-.595 1.405L4 17h11zM8 21h8a2 2 0 01-8 0z" />
+          </svg>
+      </button>
+        
+        </aside>
+
+         <div class="flex-grow bg-white p-6">
+          <div class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow-md p-6">
+              <header class="flex items-center justify-between mb-6">
+                  <h1 class="text-xl font-bold text-gray-800">Safety Inspection</h1>
+                  <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 font-medium">Save</button>
+              </header>
+
+              <div class="space-y-4">
+                  <div>
+                      <label class="block text-sm font-medium text-gray-700">Describe the event in details</label>
+                      <div class="flex items-center mt-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 6h13M8 12h9m-9 6h6" />
+                          </svg>
+                          <input type="text" placeholder="Enter your response" class="w-full border p-3 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500">
+                      </div>
+                  </div>
+
+                  <div>
+                      <label class="block text-sm font-medium text-gray-700">Select the date of inspection</label>
+                      <div class="flex items-center mt-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 9h6" />
+                          </svg>
+                          <input type="date" class="w-full border p-3 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500">
+                      </div>
+                  </div>
+
+                  <div>
+                      <label class="block text-sm font-medium text-gray-700">Select the time of inspection</label>
+                      <div class="flex items-center mt-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3" />
+                          </svg>
+                          <input type="time" class="w-full border p-3 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500">
+                      </div>
+                  </div>
+
+                  <div>
+                      <label class="block text-sm font-medium text-gray-700">How long did it take to complete the inspection?</label>
+                      <div class="flex items-center mt-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h11M9 21V3m0 0l6 6-6-6z" />
+                          </svg>
+                          <input type="text" placeholder="Use stopwatch" class="w-full border p-3 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <aside class="w-1/4 bg-gray-50 border-l p-6">
+          <h2 class="text-lg font-semibold text-gray-800 mb-4">Form Settings</h2>
+
+          <div class="space-y-4">
+              <div>
+                  <label class="block text-sm font-medium text-gray-700">Name</label>
+                  <input type="text" placeholder="Name the form" class="mt-2 w-full border p-3 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500">
+              </div>
+
+              <div>
+                  <label class="block text-sm font-medium text-gray-700">Type</label>
+                  <select class="mt-2 w-full border p-3 rounded-lg text-sm focus:ring-blue-500 focus:border-blue-500">
+                      <option>Select form type</option>
+                      <option>Inspection</option>
+                      <option>Audit</option>
+                  </select>
+              </div>
+
+              <div>
+                  <label class="block text-sm font-medium text-gray-700">Icon</label>
+                  <div class="flex items-center mt-2">
+                      <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 text-sm font-medium">Click to upload</button>
+                      <span class="text-gray-500 ml-2">or drag and drop SVG, PNG, or JPG</span>
+                  </div>
+              </div>
+
+              <div>
+                  <label class="flex items-center space-x-2">
+                      <input type="checkbox" class="h-4 w-4 text-blue-500 border-gray-300 focus:ring-blue-500">
+                      <span class="text-gray-700 text-sm">Required</span>
+                  </label>
+              </div>
+          </div>
+      </aside>
+  </main>
+</body>
+</html>
